@@ -1,6 +1,6 @@
-# JEV · 데이터로 설명하는 AI 레이스 엔지니어
+# AI Race Engineer & Data Logger (JEV)
 
-한국어 코칭, 랩·섹터 비교, 코너별 차이 시각화를 위한 **오프라인 연구용 프로토타입**입니다. 기록을 보고 “어디에서 무엇이 달랐는가”를 설명하는 것이 목표입니다.
+주행 데이터 분석과 레이스 코칭을 위한 오프라인 연구 프로토타입입니다. 현재 공개 재현본은 합성 데이터 분석·리포트만 제공하며, 실제 차량 데이터 로깅이나 실시간 차량 연동 기능은 포함하지 않습니다.
 
 이 저장소는 운영 장치와 분리한 최소 재현본입니다. 모든 포함 데이터는 수학식으로 만든 합성 데이터입니다. 실제 주행 CSV, GPS 위치, 원본 영상, 음성 파일, 장치 설정과 계정 정보는 포함하지 않습니다.
 
@@ -93,6 +93,38 @@ docs/                 입력 형식, 분석 방법, 구현·공개 범위
 - 위치 데이터: GPS 수신/기록 장치 (제조사·모델 미확인)
 
 위 장비 메모는 시스템 구성에 대한 설명입니다. 이 저장소에는 실제 CAN 기록이나 GPS 위치·경로가 없고, 분석 예제는 합성 데이터만 사용합니다.
+
+### YouTube 영상 | YouTube Videos
+
+**한국어**  
+아래 영상은 차량 온보드 장면과 GPS·주행 로그를 활용한 랩 비교 시연물입니다. 현재 이 저장소의 오프라인 재현본에는 실제 차량 데이터나 영상 분석·동기화 기능이 포함되지 않으며, 예제 분석에는 합성 데이터만 사용합니다.
+
+- [유튜브 영상 1](https://youtu.be/8iogd280mPg)
+- [유튜브 영상 2](https://youtu.be/J-jpW8rC6g0)
+
+**English**  
+The videos below demonstrate lap comparisons using onboard footage, GPS traces, and driving logs. This repository's offline reproduction does not include real vehicle data or video-analysis/synchronization features; its runnable examples use synthetic data only.
+
+- [YouTube video 1](https://youtu.be/8iogd280mPg)
+- [YouTube video 2](https://youtu.be/J-jpW8rC6g0)
+
+### 설치 장비 사진 및 시연 영상
+
+- [차량 내 JEV 시연 영상 보기 (YouTube)](https://youtu.be/nUxbhtMYJn8)
+
+아래 사진은 차량 내 컴퓨팅 장치와 데이터 수집 장비의 설치 모습을 보여줍니다. 위치정보가 담긴 EXIF 메타데이터를 제거했고, 모니터 화면은 접속정보 보호를 위해 흐림 처리했습니다.
+
+![차량 내 디스플레이와 배선](assets/hardware/01-cockpit-display-and-wiring-redacted.png)
+
+![야간 차량 내 시스템 구성](assets/hardware/02-night-cockpit-system-redacted.png)
+
+![차량 내 컴퓨팅 구성](assets/hardware/03-in-car-computing-setup-redacted.png)
+
+![USB-CAN 어댑터 앞면](assets/hardware/04-usb-can-adapter-front.jpg)
+
+![USB-CAN 어댑터 뒷면](assets/hardware/05-usb-can-adapter-back.jpg)
+
+![Jetson 설치 모습](assets/hardware/06-jetson-installation.jpg)
 
 ## 저장소 상태
 
