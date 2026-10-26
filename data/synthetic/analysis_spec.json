@@ -1,0 +1,20 @@
+{
+  "synthetic": true,
+  "coordinate_contract": "pre-aligned common route distance, not independently measured odometry",
+  "sector_boundaries_m": [
+    0,
+    340,
+    700,
+    1000
+  ],
+  "corners": [
+    {
+      "name": "합성 코너 1",
+      "center_m": 230
+    },
+    {
+      "name": "합성 코너 2",
+      "center_m": 690
+    }
+  ]
+}

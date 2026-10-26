@@ -1,0 +1,16 @@
+{"age_seconds": 0, "race": {"lap": 1, "completed_laps": 0, "sector": 1, "best_lap_sec": null}}
+{"age_seconds": 0, "race": {"lap": 1, "completed_laps": 0, "sector": 2, "best_lap_sec": null}}
+{"age_seconds": 0, "race": {"lap": 1, "completed_laps": 0, "sector": 3, "best_lap_sec": null}}
+{"age_seconds": 0, "race": {"lap": 2, "completed_laps": 1, "sector": 1, "last_lap_sec": 120.0, "best_lap_sec": 120.0}}
+{"age_seconds": 0, "race": {"lap": 2, "completed_laps": 1, "sector": 2, "best_lap_sec": 120.0}}
+{"age_seconds": 0, "race": {"lap": 2, "completed_laps": 1, "sector": 3, "best_lap_sec": 120.0}}
+{"age_seconds": 0, "race": {"lap": 3, "completed_laps": 2, "sector": 1, "last_lap_sec": 118.8, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 3, "completed_laps": 2, "sector": 2, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 3, "completed_laps": 2, "sector": 3, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 4, "completed_laps": 3, "sector": 1, "last_lap_sec": 119.3, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 4, "completed_laps": 3, "sector": 2, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 4, "completed_laps": 3, "sector": 3, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 5, "completed_laps": 4, "sector": 1, "last_lap_sec": 121.1, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 5, "completed_laps": 4, "sector": 2, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 5, "completed_laps": 4, "sector": 3, "best_lap_sec": 118.8}}
+{"age_seconds": 0, "race": {"lap": 6, "completed_laps": 5, "sector": 1, "last_lap_sec": 125.0, "best_lap_sec": 118.8}}

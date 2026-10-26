@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-offline-demo"
+version = "0.1.0"
+description = "Synthetic-data offline Korean race coaching research prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+jev-offline = "jev.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jev*"]
+
+[tool.setuptools.package-data]
+jev = ["fixtures/*.csv", "fixtures/*.json", "fixtures/*.jsonl"]

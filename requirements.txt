@@ -1,0 +1,2 @@
+# Runtime: Python 3.10+ standard library only.
+# No additional packages required for the offline demo or unittest suite.

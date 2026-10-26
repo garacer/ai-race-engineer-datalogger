@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "source": "deterministic equations in tools/create_synthetic.py",
+  "contains_recorded_driving_data": false,
+  "contains_gps": false,
+  "contains_vehicle_identifiers": false,
+  "telemetry": "two artificial 1000m paths, 5m sampling; time integrated from artificial speed",
+  "states": "independent classification scenario; lap times are not telemetry lap A/B times",
+  "corner_numbering": "fictional; not an official circuit map",
+  "random_seed": "not used; deterministic"
+}
